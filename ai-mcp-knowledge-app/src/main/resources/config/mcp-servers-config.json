@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+
+    "mcp-server-computer": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/Users/qinxiao/.m2/repository/cn/bugstack/mcp/mcp-server-computer/1.0.0/mcp-server-computer-1.0.0.jar"
+      ]
+    }
+  }
+}
+

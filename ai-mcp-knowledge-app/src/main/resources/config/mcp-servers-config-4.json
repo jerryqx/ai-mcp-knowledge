@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "mcp-server-csdn": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/Users/qinxiao/.m2/repository/cn/bugstack/mcp/mcp-server-csdn/1.0.0/mcp-server-csdn-1.0.0.jar",
+        "--csdn.api.categories=Java场景面试宝典",
+        "--csdn.api.cookie=dc_sid=uuid_tt_dd=10_37073317040-1744940142681-439048; fid=20_84371068999-1744940143833-824314; _clck=1d5h9ye%7C2%7Cfv6%7C0%7C1934; c_segment=8; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1744940145,1744947444; HMACCOUNT=8F2656BD4C17EE58; dc_sid=51b07b8730c50fd4413a1975b125674a; __gads=ID=ec68afff22ece88c:T=1744948582:RT=1744948582:S=ALNI_MZDL4luoLWK4uVDbi97OSSv62TnFA; __gpi=UID=000010a2e5f16cea:T=1744948582:RT=1744948582:S=ALNI_MZ8n82kL8lCycD3h7St4TWPmLZiJw; __eoi=ID=afe650a6c846ed17:T=1744948582:RT=1744948582:S=AA-AfjZHnALXuL2AYCMFzbDeZ92I; loginbox_strategy=%7B%22taskId%22%3A349%2C%22abCheckTime%22%3A1744940145780%2C%22version%22%3A%22exp11%22%2C%22blog-threeH-dialog-exp11tipShowTimes%22%3A5%7D; SESSION=625c14cf-493a-477b-b71f-1ce66f0f8e0c; hide_login=1; UserName=sinat_26229211; UserInfo=91516a9cdd71490180241a73e2dc7ff4; UserToken=91516a9cdd71490180241a73e2dc7ff4; UserNick=sinat_26229211; AU=099; UN=sinat_26229211; BT=1745132599775; p_uid=U010000; dc_session_id=10_1745156133941.573552; c_first_ref=www.baidu.com; c_first_page=https%3A//www.csdn.net/; c_dsid=11_1745156134067.037478; c-sidebar-collapse=0; c_ab_test=1; creative_btn_mp=3; csdn_newcert_sinat_26229211=1; c_page_id=default; creativeSetApiNew=%7B%22toolbarImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20230921102607.png%22%2C%22publishSuccessImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20240229024608.png%22%2C%22articleNum%22%3A28%2C%22type%22%3A2%2C%22oldUser%22%3Atrue%2C%22useSeven%22%3Afalse%2C%22oldFullVersion%22%3Atrue%2C%22userName%22%3A%22sinat_26229211%22%7D; c_pref=https%3A//editor.csdn.net/; c_ref=https%3A//mp.csdn.net/mp_blog/creation/success/147295719; log_Id_pv=33; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1745156479; dc_tos=sv0rcz; log_Id_view=1078; log_Id_click=49"
+      ]
+    },
+    "mcp-server-weixin": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/Users/qinxiao/.m2/repository/cn/bugstack/mcp/mcp-server-weixin/1.0.0/mcp-server-weixin-1.0.0.jar",
+        "--weixin.api.original_id=gh_dd05c099d67d",
+        "--weixin.api.app-id=wxfa86ef6d54566d89",
+        "--weixin.api.app-secret=281fce61c777138f98db0ada779be278",
+        "--weixin.api.template_id=7UU44yCu2cnWazCYTAohyVS7Dl5L7ezfsP4W-KabG48",
+        "--weixin.api.touser=oRV6_s2ARRQg27SfGJYs9-hEHDZM"
+      ]
+    }
+  }
+}
