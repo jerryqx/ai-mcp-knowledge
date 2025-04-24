@@ -20,7 +20,7 @@ spring:
       api-key: sk-87d49e5a3e2946288df86c0466613e0c
       chat:
         options:
-          model: qwen-plus
+          model: qwen-plus-latest
       embedding-model: text-embedding-ada-002
       embedding:
         options:

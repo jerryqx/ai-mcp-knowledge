@@ -70,7 +70,7 @@ public class OpenAIConfig {
         return defaultChatClientBuilder
                 .defaultTools(tools)
                .defaultOptions(OpenAiChatOptions.builder()
-                        .model("qwen-plus")
+                        .model("qwen-plus-latest")
                         .build())
                 .defaultAdvisors(new PromptChatMemoryAdvisor(chatMemory))
                 .build();
