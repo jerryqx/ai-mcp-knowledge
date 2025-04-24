@@ -2,7 +2,7 @@ version: '3.8'
 # docker-compose -f docker-compose-app-v1.0.yml up -d
 services:
   ai-mcp-knowledge-app:
-    image: registry.cn-hangzhou.aliyuncs.com/qx-images/ai-mcp-knowledge-app:1.0
+    image: registry.cn-hangzhou.aliyuncs.com/qx-images/ai-mcp-knowledge-app:1.1
     #image: registry.cn-hangzhou.aliyuncs.com/fuzhengwei/ai-mcp-knowledge-app:1.0
     container_name: ai-mcp-knowledge-app
     restart: always
