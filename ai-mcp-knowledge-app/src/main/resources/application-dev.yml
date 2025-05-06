@@ -13,14 +13,18 @@ spring:
   ai:
     mcp:
       client:
-        stdio:
-          servers-configuration: classpath:/config/mcp-servers-config-4.json
+        #stdio:
+        #  servers-configuration: classpath:/config/mcp-servers-config-4.json
+        request-timeout: 360s
+        sse:
+          connections:
+            mcp-server-csdn:
+              url: http://127.0.0.1:8101
+            mcp-server-weixin:
+              url: http://127.0.0.1:8102
     openai:
       base-url: https://dashscope.aliyuncs.com/compatible-mode
       api-key: sk-87d49e5a3e2946288df86c0466613e0c
-      chat:
-        options:
-          model: qwen-plus-latest
       embedding-model: text-embedding-ada-002
       embedding:
         options:
